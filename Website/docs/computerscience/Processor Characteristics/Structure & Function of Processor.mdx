@@ -91,19 +91,22 @@ Information about the insides of the CPU and how they work, as well as factors a
 
 ## Factors affecting CPU performance
 
-- There are three factors that affect the performance of the CPU, clock speed, the number of cores it has, and its amount of cache memory
+There are three factors that affect the performance of the CPU:
+- Clock Speed
+- Core count
+- Amount of cache
 
 ### Clock speed
 
-- Determined by the system clock, an electronic device which sends a signal, switching between a value of 0 and 1. As the clock changes from 0 to 1, a CPU operation starts. Clock speed is the time taken for one clock cycle to complete.
-- Therefore the higher the clock speed, the more CPU operations can be completed per second, resulting in a faster CPU
+- Determined by the system clock, an electronic device which sends a signal, switching between a value of 0 and 1. As the clock changes from 0 to 1, a CPU operation starts. The clock speed is the time taken for one clock cycle to complete.
+- In theory, a higher clock speed means that more CPU operations can be completed in a second, resulting in faster execution of a program or calculation.
 
 ### Number of Cores
 
-- A core is an independent processor that can run its own fetch decode execute cycle. For example, a processor with 4 cores can run 4 FDE cycles simultaneously, and therefore is 4x faster. A processor with 8 cores is 8x faster.
+- A core is an independent processor that can run its own Fetch Decode Execute cycle. For example, a processor with 4 cores can run 4 FDE cycles simultaneously, and therefore is theoretically 4x faster. This is a pattern that continues per core added.
 
 ### Cache size
 
-- Cache memory is storage inside the CPU. Because it is so close to the CPU, it is very fast. However the storage capacity is very small.
+- The Cache memory is storage inside the CPU. Because it is so close to the CPU, it is very fast, but the capacity is very small.
 - Cache memory stores frequently used instructions, making them faster to access
-- More cache memory means that more instructions can be performed faster.
+- More cache memory means that the next instruction can 
